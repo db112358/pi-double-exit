@@ -1,0 +1,24 @@
+{
+  "name": "pi-double-exit",
+  "version": "1.0.0",
+  "description": "Make pi's exit key take two presses inside a short window, with a hint in between.",
+  "keywords": ["pi", "pi-package", "extension", "exit"],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db112358/pi-double-exit.git"
+  },
+  "homepage": "https://github.com/db112358/pi-double-exit#readme",
+  "bugs": {
+    "url": "https://github.com/db112358/pi-double-exit/issues"
+  },
+  "files": ["extensions", "CHANGELOG.md", "README.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./extensions/double-exit.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
